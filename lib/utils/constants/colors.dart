@@ -16,4 +16,6 @@ class FColors {
   static const Color labelOffBlue = Color(0xFFEFF5FB);
   static const Color labelOffGreen = Color(0xFFEEFAF6);
   static const Color labelOffRed = Color(0xFFFCECEF);
+
+  static const Color oCeansBlue = Color(0xFF3A9B7A);
 }

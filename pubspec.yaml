@@ -76,12 +76,12 @@ flutter:
   fonts:
     - family: DMSans
       fonts:
-        - asset: fonts/DMSans_18pt-Regular.ttf
-        - asset: fonts/DMSans_18pt-Bold.ttf
+        - asset: assets/fonts/DMSans_18pt-Regular.ttf
+        - asset: assets/fonts/DMSans_18pt-Bold.ttf
           weight: 700
-        - asset: fonts/DMSans_18pt-Italic.ttf
+        - asset: assets/fonts/DMSans_18pt-Italic.ttf
           style: italic
-        - asset: fonts/DMSans_18pt-Medium.ttf
+        - asset: assets/fonts/DMSans_18pt-Medium.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
