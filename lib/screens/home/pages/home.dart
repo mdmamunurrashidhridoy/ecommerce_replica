@@ -1,5 +1,4 @@
 import 'package:ecommerce_replica/screens/home/pages/home_screen.dart';
-import 'package:ecommerce_replica/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 

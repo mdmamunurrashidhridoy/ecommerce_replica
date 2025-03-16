@@ -1,8 +1,6 @@
-import 'package:ecommerce_replica/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
-import 'package:ecommerce_replica/common/widget/app_bar.dart';
 
 class BottomNavbarCustom extends StatelessWidget {
   const BottomNavbarCustom({super.key, required this.currentIndex, required this.onTapMethod});
