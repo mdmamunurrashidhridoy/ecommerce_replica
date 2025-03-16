@@ -1,21 +1,26 @@
 import 'package:flutter/material.dart';
 
 class FColors {
-  static const Color primaryBlueOcean = Color(0xFF5CC936);
-  static const Color primaryOrangeFox = Color(0xFFFFC120);
-  static const Color primaryPureWhite = Color(0xFFFFFFFF);
-  static const Color primaryNavyBlack = Color(0xFF0C1A30);
+  //Primary
+  static const primary = Color(0xFF5CC936);
+  static const primaryOrange = Color(0xFFFFC120);
+  static const primaryNavy = Color(0xFF0C1A30);
+  static const pureWhite = Color(0xFFFFFFFF);
 
-  static const Color secondaryEarthGreen = Color(0xFF3A9B7A);
-  static const Color secondaryRedVelvet = Color(0xFFFE3A30);
-  static const Color secondaryDarkGrey = Color(0xFF838589);
-  static const Color secondaryHalfGrey = Color(0xFFC4C5C4);
-  static const Color secondarySoftGrey = Color(0xFFEDEDED);
-  static const Color secondaryOfffGrey = Color(0xFFFAFAFA);
+  // Secondary
+  static const secondary = Color(0xFF3A9B7A);
+  static const secondaryRed = Color(0xFFC93545);
+  static const darkGrey = Color(0xFF838589);
+  static const halfGrey = Color(0xFFC4C5C4);
+  static const softGrey = Color(0xFFEDEDED);
+  static const offGrey = Color(0xFFFAFAFA);
 
-  static const Color labelOffBlue = Color(0xFFEFF5FB);
-  static const Color labelOffGreen = Color(0xFFEEFAF6);
-  static const Color labelOffRed = Color(0xFFFCECEF);
+  // Label Colors
+  static const offBlue = Color(0xFFEFF5FB);
+  static const offGreen = Color(0xFFEEFAF6);
+  static const offRed = Color(0xFFFCECEF);
 
-  static const Color oCeansBlue = Color(0xFF3669C9);
+  // Font Colors
+  static const oceanBlue = Color(0xFF3669C9);
+  static const dark = Color(0xFF000000);
 }
