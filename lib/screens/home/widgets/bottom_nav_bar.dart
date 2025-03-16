@@ -5,16 +5,16 @@ import 'package:icons_plus/icons_plus.dart';
 import 'package:ecommerce_replica/common/widget/app_bar.dart';
 
 class BottomNavbarCustom extends StatelessWidget {
-  const BottomNavbarCustom({
-    super.key,
-  });
-
+  const BottomNavbarCustom({super.key, required this.currentIndex, required this.onTapMethod});
+  final int currentIndex;
+  final Function(int) onTapMethod;
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
         selectedLabelStyle: TextStyle(fontSize: 9),
         unselectedLabelStyle: TextStyle(fontSize: 9),
         type: BottomNavigationBarType.fixed,
+        onTap: onTapMethod,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
